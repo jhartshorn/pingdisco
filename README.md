@@ -1,4 +1,4 @@
-# NetVis - Network Visualization Tool
+# PingDisco - Network Discovery Tool
 
 A lightweight Go-based network discovery tool that scans local subnets to identify active devices and their hostnames.
 
@@ -14,7 +14,7 @@ A lightweight Go-based network discovery tool that scans local subnets to identi
 ## Usage
 
 ```bash
-./netvis
+./pingdisco
 ```
 
 The tool will automatically:
@@ -48,7 +48,7 @@ Total online devices: 5
 Requires Go 1.22.8 or later:
 
 ```bash
-go build -o netvis ./cmd/netvis
+go build -o pingdisco ./cmd/pingdisco
 ```
 
 ## How It Works
